@@ -1,0 +1,13 @@
+<!-- 头部部分 -->
+<view class="header">
+
+  <!-- logo图&点击导航到主页面 -->
+  <navigator url="/pages/index/index" class="logo">
+    <image src="/static/images/logo.jpg" mode="heightFix" class="pic" />
+  </navigator>
+
+  <!-- search部分 -->
+  <view class="search">
+    <icon type="success" />
+  </view>
+</view>

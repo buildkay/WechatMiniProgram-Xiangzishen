@@ -1,0 +1,37 @@
+{
+  "pages": ["pages/index/index", "pages/classify/classify", "pages/news/news"],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "巷子深茶美文化馆",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#4c4d4e",
+    "selectedColor": "#BDA066",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-fill.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/images/all.png",
+        "selectedIconPath": "static/images/all-fill.png"
+      },
+      {
+        "text": "咨询",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/images/news.png",
+        "selectedIconPath": "static/images/news-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "xzs-header": "components/xzs-header/xzs-header"
+  }
+}
