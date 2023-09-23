@@ -1,3 +1,13 @@
-.box1 {
-  width: 100px;
+.banner {
+  padding-top: 30rpx;
+  swiper {
+    height: 460rpx;
+    swiper-item {
+      image {
+        width: 690rpx;
+        height: 460rpx;
+        border-radius: 30rpx;
+      }
+    }
+  }
 }

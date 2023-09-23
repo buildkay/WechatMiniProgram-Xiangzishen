@@ -1,2 +1,20 @@
 <!-- 导入头部组件 -->
 <xzs-header></xzs-header>
+
+<!-- 首页banner图 -->
+<view class="banner">
+  <swiper previous-margin="30rpx" circular autoplay interval="3000" indicator-dots indicator-active-color="#BDA066" indicator-color="rgba(255,255,255,0.5)">
+    <swiper-item>
+      <image src="/static/images/banner0.jpg" mode="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/banner1.jpg" mode="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/banner2.jpg" mode="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/banner3.jpg" mode="" />
+    </swiper-item>
+  </swiper>
+</view>
