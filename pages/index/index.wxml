@@ -18,3 +18,15 @@
     </swiper-item>
   </swiper>
 </view>
+
+<!-- 首页导航 -->
+<view class="scrollNav">
+  <scroll-view scroll-x>
+    <navigator class="item" wx:for="{{6}}" wx:key="index" url="">
+      <view class="pic">
+        <image src="/static/images/navicon{{index+1}}.png" mode="" />
+      </view>
+      <view class="text">明星茶</view>
+    </navigator>
+  </scroll-view>
+</view>
