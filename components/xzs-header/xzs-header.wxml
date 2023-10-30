@@ -8,6 +8,6 @@
 
   <!-- search部分 -->
   <view class="search">
-    <icon type="success" />
+    <van-icon name="search" class="vanicon" bindtap="clickSearch"/>   
   </view>
 </view>

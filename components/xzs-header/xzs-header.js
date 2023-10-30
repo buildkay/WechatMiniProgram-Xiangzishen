@@ -13,5 +13,18 @@ Component({
   /**
    * 组件的方法列表
    */
-  methods: {},
+  methods: {
+    //跳转到搜索页面
+    clickSearch() {
+      wx.navigateTo({
+        url: "/pages/search/search",
+      });
+    },
+
+    clickPhone() {
+      wx.makePhoneCall({
+        phoneNumber: "18866669999",
+      });
+    },
+  },
 });
