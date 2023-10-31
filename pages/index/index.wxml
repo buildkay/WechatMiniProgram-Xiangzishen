@@ -58,3 +58,6 @@
     </view>
   </view>
 </view>
+
+<!-- 底部文字 -->
+<xzs-footer></xzs-footer>
