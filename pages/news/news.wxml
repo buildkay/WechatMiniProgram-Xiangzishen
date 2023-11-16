@@ -1,1 +1,19 @@
+<!-- 搜索组件 -->
 <xzs-header></xzs-header>
+
+<!-- 咨询列表展示 -->
+<view class="news">
+
+  <!-- 展示部分 -->
+  <view class="content">
+    <view class="box" wx:for="{{newsArr}}" wx:key="_id">
+      <xzs-news-item item="{{item}}"></xzs-news-item>
+    </view>
+  </view>
+
+  <!-- 加载装饰&数据加载完毕网络节流 -->
+  <view class="loadOut">
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <view class="noData" wx:if="{{isData}}">没有更多数据了~</view>
+  </view>
+</view>

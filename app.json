@@ -34,7 +34,8 @@
     "xzs-header": "components/xzs-header/xzs-header",
     "xzs-news-item": "components/xzs-news-item/xzs-news-item",
     "xzs-footer": "components/xzs-footer/xzs-footer",
-    "van-icon": "@vant/weapp/icon/index"
+    "van-icon": "@vant/weapp/icon/index",
+    "van-loading": "@vant/weapp/loading/index"
   },
   "lazyCodeLoading": "requiredComponents",
   "resolveAlias": {

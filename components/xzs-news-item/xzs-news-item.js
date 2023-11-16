@@ -7,8 +7,8 @@ Component({
     item: {
       type: Object,
       value: {
-        title: "默认测试标题",
-        author: "咸虾米",
+        title: "默认标题",
+        author: "xyz",
       },
     },
   },
