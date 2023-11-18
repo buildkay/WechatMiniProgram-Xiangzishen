@@ -1,5 +1,10 @@
 {
-  "pages": ["pages/index/index", "pages/classify/classify", "pages/news/news"],
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail"
+  ],
   "window": {
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "巷子深茶美文化馆",
