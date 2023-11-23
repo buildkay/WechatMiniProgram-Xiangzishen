@@ -22,7 +22,7 @@
 <!-- 首页导航 -->
 <view class="scrollNav">
   <scroll-view scroll-x>
-    <navigator open-type="reLaunch" url="" class="item" wx:for="{{navArr}}" wx:key="_id">
+    <navigator open-type="reLaunch" url="/pages/classify/classify?idx={{index}}" class="item" wx:for="{{navArr}}" wx:key="_id">
       <view class="pic">
         <image src="{{item.icon}}" mode="" />
       </view>
