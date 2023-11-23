@@ -39,8 +39,12 @@
     "xzs-header": "components/xzs-header/xzs-header",
     "xzs-news-item": "components/xzs-news-item/xzs-news-item",
     "xzs-footer": "components/xzs-footer/xzs-footer",
+    "xzs-product-item": "components/xzs-product-item/xzs-product-item",
     "van-icon": "@vant/weapp/icon/index",
-    "van-loading": "@vant/weapp/loading/index"
+    "van-loading": "@vant/weapp/loading/index",
+    "van-skeleton": "@vant/weapp/skeleton/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
   },
   "lazyCodeLoading": "requiredComponents",
   "resolveAlias": {
