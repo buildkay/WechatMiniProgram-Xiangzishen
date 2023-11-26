@@ -3,6 +3,7 @@
   <van-skeleton title row="5" />
 </view>
 
+<!-- 新闻详情展示 -->
 <view class="detail" wx:else>
   <view class="title">
     {{detail.title}}
@@ -24,6 +25,8 @@
   <view class="content">
     <rich-text nodes="{{detail.content}}"></rich-text>
   </view>
+
+  <!-- 底部免责文字展示 -->
   <view class="copyright">
     <view class="top">免责声明</view>
     <view>本文来自网络新闻创作者，不代表巷子深小程序端的观点和立场，如有侵权请联系客服进行删除。</view>

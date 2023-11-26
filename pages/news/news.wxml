@@ -1,4 +1,4 @@
-<!-- 搜索组件 -->
+<!-- 头部组件 -->
 <xzs-header></xzs-header>
 
 <!-- 咨询列表展示 -->
@@ -7,6 +7,8 @@
   <!-- 展示部分 -->
   <view class="content">
     <view class="box" wx:for="{{newsArr}}" wx:key="_id">
+
+      <!-- 列表展示组件 -->
       <xzs-news-item item="{{item}}"></xzs-news-item>
     </view>
   </view>

@@ -1,19 +1,29 @@
+<!-- 头部组件 -->
 <xzs-header></xzs-header>
+
+<!-- banner图部分 -->
 <view class="banner">
   <image class="pic" src="../../static/images/teaBanner.jpg" mode="aspectFill" />
 </view>
+
+<!-- 导航部分 -->
 <view class="nav">
   <van-tabs border color="#BDA066" title-active-color="#BDA066" active="{{ navActive }}" id="myTabs" bind:click="navChange">
     <van-tab title="{{item.classname}}" wx:key="_id" wx:for="{{navArr}}"></van-tab>
   </van-tabs>
 </view>
 
+<!-- 产品展示部分 -->
 <view class="content">
   <view class="body">
     <view class="box" wx:for="{{proArr}}" wx:key="_id">
+
+      <!-- 产品展示组件 -->
       <xzs-product-item item="{{item}}"></xzs-product-item>
     </view>
   </view>
+
+  <!-- 底部部分 -->
   <view class="loadOut">
     <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
     <view class="noData" wx:if="{{isData}}">没有更多数据了~</view>

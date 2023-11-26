@@ -1,11 +1,16 @@
 <navigator url="/pages/newsDetail/newsDetail?id={{item._id}}" class="nsitem">
+  <!-- 图片部分 -->
   <view class="pic">
     <image class="img" src="{{item.picurl}}" mode="aspectFill" />
   </view>
+
+  <!-- 标题部分 -->
   <view class="text">
     <view class="title">
       {{item.title}}
     </view>
+
+    <!-- 主体部分 -->
     <view class="info">
       <view class="block">
         <van-icon name="clock-o" size="14" class="vanicon" />
